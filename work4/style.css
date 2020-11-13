@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: url(./images/bg.jpg)no-repeat ;
+    background-position:center ;
+    background-size: cover;
+    background-attachment:fixed ;
+    font-family:'Poppins';
+
+}
+
+.header{
+    line-height: 28.6px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 69.3333px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28.6px;
+    padding-top: 138.667px;
+
+}
+
+.header span{
+    color: #ffffffa6;
+    font-size: 17.3333px;
+    font-weight: 300;
+    line-height: 17.3333px;
+    display: block;
+}

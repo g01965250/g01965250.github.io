@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    box-sizing: border-box;
+
+}
+
+.banner{
+    padding-top: 149.333px;
+    padding-bottom: 112px;
+    background-color: #00cdcf;
+    text-align: center;
+    color: #fff;
+    line-height: 30.8px;
+}
+
+.banner-title{
+    letter-spacing: 1.68px;
+    line-height: 60.16px;
+    font-size: 44.8px;
+    padding: 49.28px;
+    width: 40%;
+    border-top: double 4px white;
+    border-bottom: double 4px white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin:0 auto 48px;
+    font-weight: 300;
+}
+
+.banner-main{
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 1.68px;
+    line-height: 30.8px;
+    margin-bottom: 56px;
+}
+
+.banner-button{
+    font-size: 18.6667px;
+    font-weight: 300;
+    height: 53.1875px;
+    letter-spacing: 1.68px;
+    line-height: 55.0667px;
+    padding: 0 28px ;
+    background-color: #009a9c;
+    display: inline-block;
+    margin-bottom: 37.3333px;
+}
+
+.banner2{
+    padding: 112px 0 ;
+    text-align: center;
+}
+
+.banner2-title{
+    color: #555;
+    font-size: 29.8667px;
+    font-weight: 300;
+    letter-spacing: 1.68px;
+    padding-bottom: 11.9467px;
+    margin-bottom: 29.8667px;
+    border-bottom: double #e3e3e3 4px ;
+    display: inline-block;
+    line-height: 30.8px;
+}
+
+.cards{
+    width: 1213.33px;
+    margin: 74.6667px auto 0 ;
+}
+
+.fa{
+    color: #00cdcf;
+    font-size: 52.667px;
+    line-height: 52.667px;
+    margin-bottom: 36.5867px;
+}
+
+
+
+.card{
+    display: inline-block;
+    color: #444;
+    text-align: center;
+    border:  solid 1px #e3e3e3;
+    padding: 37.3333px;
+    padding-bottom: 1.86667px;
+    width: 33.33333%;
+    margin-left: -5px;
+
+
+}
+
+.card-title{
+    font-size: 22.4px;
+    font-weight: 300;
+    letter-spacing: 1.68px;
+    line-height: 33.6px;
+    margin-bottom: 22.4px;
+}
+
+.card-main{
+    font-size: 18.6667px;
+    font-weight: 300;
+    letter-spacing: 1.68px;
+    line-height: 30.8px;
+    margin-bottom: 37.3333px;
+}
+
+.cards .down{
+    border-top:none ;
+    margin-left: -6px;
+}
+
+.form{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.form1{
+    width: 653.33px;
+    padding: 112px 0;
+    margin: 112px auto;
+    color: #444;
+}
+
+.form-title{
+    display: inline-block;
+    font-size: 29.8667px;
+    font-weight: 300;
+    letter-spacing: 1.68px;
+    line-height: 44.8px;
+    margin-bottom: 29.8667px;
+    padding-bottom:11.9467px ;
+    border-bottom: #ddd 4px double;
+}
