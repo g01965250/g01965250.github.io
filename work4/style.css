@@ -5,35 +5,85 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13pt;
 }
 
 body{
-    background: url(./images/bg.jpg)no-repeat ;
-    background-position:center ;
-    background-size: cover;
-    background-attachment:fixed ;
     font-family:'Poppins';
-
+    background-color: #1e1f23;
 }
 
+body:after {
+    pointer-events: none;
+    transition: opacity 1.5s ease-in-out, visibility 1.5s;
+    content: '';
+    background-image: url(./images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    visibility: visible;
+    opacity: 1;
+}
 .header{
-    line-height: 28.6px;
+    text-align: center;
 }
 
 .logo{
     color: #fff;
-    font-size: 69.3333px;
+    font-size: 4rem;
     font-weight: 700;
     text-align: center;
-    line-height: 28.6px;
-    padding-top: 138.667px;
-
+    line-height: 60px;
+    padding-top: 118px;
 }
 
 .header span{
     color: #ffffffa6;
-    font-size: 17.3333px;
+    font-size: 1rem;
+    line-height: 15px;
     font-weight: 300;
-    line-height: 17.3333px;
     display: block;
+}
+
+@media screen and (max-width: 1680px) {
+    html {
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    html {
+        font-size: 11pt;
+    }
+    body:after {
+        background-attachment: scroll;
+        background-size: auto;
+        background-position: top;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    html {
+        font-size: 12pt;
+    }
+    body:after {
+        background-attachment: scroll;
+        background-position: top;
+        background-size: 100%;
+    }
+    .logo{
+        padding-top: 74px;
+    }
 }
