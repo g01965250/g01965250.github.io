@@ -50,7 +50,7 @@
 }
 
 .banner2{
-    padding: 112px 0 ;
+    padding-top: 112px ;
     text-align: center;
 }
 
@@ -121,18 +121,75 @@
 
 .form1{
     width: 653.33px;
-    padding: 112px 0;
-    margin: 112px auto;
+    padding-top: 112px;
+    margin: 112px auto 0;
     color: #444;
 }
 
 .form-title{
     display: inline-block;
-    font-size: 29.8667px;
+    font-size:29.8667px;
     font-weight: 300;
     letter-spacing: 1.68px;
-    line-height: 44.8px;
-    margin-bottom: 29.8667px;
-    padding-bottom:11.9467px ;
+    line-height: 38.4px;
+    margin-bottom: 26.24px;
+    padding-bottom:10.24px ;
     border-bottom: #ddd 4px double;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-input{
+    width: 47%;
+}
+
+.form-text{
+    color: #555;
+    margin-bottom: 2.88px;
+    letter-spacing: 1.44px;
+    font-size: 16.8px;
+}
+
+.form-input input{
+    height: 44px;
+    width: 100%;
+    padding: 0 16px;
+    line-height: 26.4px;
+    margin-bottom: 37.3333px;
+    
+}
+
+.form-message textarea{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 37.3333px;
+    font-size: 18.667px;
+}
+
+.form-button{
+    display: inline-block;
+    color: #f7f7f7;
+    background-color: #555;
+    font-size: 18.6667px;
+    height: 53.1875px;
+    line-height: 55.0667px;
+    padding: 0 28px;
+    margin-bottom: 112px;
+    letter-spacing: 1.68px;
+}
+
+.copy{
+    font-size: 16.8px;
+    line-height: 30.8px;
+    font-size: 16.8px;
+    color: #bbb;
+    letter-spacing: 1.68px;
+    padding: 93.3333px 0 108.266px;
+    border-top: 1px solid #ddd ;
+    width: 761.19px;
+    margin: 0 auto ;
 }
