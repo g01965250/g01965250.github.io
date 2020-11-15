@@ -7,7 +7,6 @@
 body{
     font-family: 'Lato';
     letter-spacing: 1px;
-
 }
 
 header{
@@ -15,7 +14,6 @@ header{
     background-size:cover ;
     text-align: center;
     padding: 160px 0;
-
 }
 
 .logo{
@@ -23,7 +21,6 @@ header{
     font-weight: 900;
     color: #323338;
     line-height: 100%;
-
 }
 
 .title{
@@ -41,7 +38,6 @@ header li{
     padding: 16px 24px;
     font-size: 16px;
     font-weight: 200;
-    letter-spacing: 1px;
     color: #323338;
     line-height: 100%;
     margin: 0 -0.5px;
