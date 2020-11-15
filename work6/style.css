@@ -71,6 +71,8 @@ header li{
 
  .main1-left{
      width: 262.5px;
+     display: inline-block;
+     float: left;
  }
 
  .card{
@@ -125,4 +127,54 @@ header li{
 
  .main a{
      color: #525252;
+ }
+
+ .main1-md{
+     margin-left: 50px;
+     float: left;
+     display: inline-block;
+     width: 575px;
+ }
+
+ .md-title{
+     color: #323338;
+     text-align: left;
+     font-size: 48px;
+     font-weight: 900;
+     letter-spacing: -2px;
+     line-height: 57.6px;
+     margin-bottom: 32px;
+ }
+
+ .md-content{
+     text-align: left;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 28px;
+     margin-bottom: 24px;
+     color: #8a8a8a;
+ }
+
+.md-content strong{
+    color: #2a2a2a;
+}
+
+ .md-content a{
+     color: #d1551f;
+     text-decoration: underline ;
+ }
+
+ .button{
+     display: inline-block;
+     margin-top: 35px;
+     padding: 17.6px 26.4px;
+     background-color: #323338;
+     font-size: 17.6px;
+     font-weight: 300;
+     border-radius: 4px;
+     float: left;
+ }
+
+ .button a{
+     color: #fff;
  }
