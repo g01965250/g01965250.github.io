@@ -55,7 +55,15 @@ body:after {
     line-height: 15px;
     font-weight: 300;
     display: block;
+    margin-bottom: 69.3333px;
+
 }
+
+.img-card{
+    display: flex;
+    justify-content: center;    
+}
+
 
 @media screen and (max-width: 1680px) {
     html {
