@@ -48,3 +48,11 @@ header li{
      border-radius: 4px;
  }
 
+ header a{
+     text-decoration: none;
+     color: #323338;
+ }
+
+ header li a:hover{
+     color: #fff;
+ }
