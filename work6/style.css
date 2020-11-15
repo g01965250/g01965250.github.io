@@ -67,41 +67,38 @@ header li{
      width: 1200px;
      padding: 80px 0;
      text-align: center;
+     display: flex;
  }
 
  .main1-left{
      width: 262.5px;
      display: inline-block;
-     float: left;
+     text-align: left;
  }
 
  .card{
      padding-bottom: 25px;
  }
 
- .main1-left .border{
-    border-bottom: 1px #e7e5da solid;
-    border-top: 1px #e7e5da solid;
- }
+
 
  .main1-left .top{
      padding-top: 20px;
+     border-top: 1px #e7e5da solid;
  }
 
- .left-title{
+ .sm-title{
      color: #323338;
      font-size: 32px;
      font-weight: 900;
      line-height: 100%;
      letter-spacing: -2px;
      margin-bottom: 40px;
-     text-align: left;
+     padding-top: 0px;
  }
  
  .date{
-     float: left;
      display: inline-block;
-     box-sizing: content-box;
      background-color: #323338;
      padding: 14px;
      margin-bottom: 20px;
@@ -116,12 +113,10 @@ header li{
  }
 
  .main{
-     clear: both;
      font-size: 16px;
      color: #525252;
      line-height: 28.8px;
      font-weight: 300;
-     text-align: left;
      margin-bottom: 24px;
  }
 
@@ -129,16 +124,19 @@ header li{
      color: #525252;
  }
 
+ .main a:hover{
+     text-decoration: underline;
+ }
+
  .main1-md{
      margin-left: 50px;
-     float: left;
      display: inline-block;
      width: 575px;
+     text-align: left;
  }
 
  .md-title{
      color: #323338;
-     text-align: left;
      font-size: 48px;
      font-weight: 900;
      letter-spacing: -2px;
@@ -147,7 +145,6 @@ header li{
  }
 
  .md-content{
-     text-align: left;
      font-size: 16px;
      font-weight: 300;
      line-height: 28px;
@@ -172,9 +169,109 @@ header li{
      font-size: 17.6px;
      font-weight: 300;
      border-radius: 4px;
-     float: left;
  }
 
  .button a{
      color: #fff;
  }
+
+ .main1-right{
+     display: inline-block;
+     margin-left: 50px;
+     text-align: left;
+ }
+
+ .main1-right li{
+     list-style: none;
+     padding: 16px 0;
+     font-size: 16px;
+     line-height: 25.6px;
+     font-weight: 300;
+     border-top: 1px solid #e6e6e6 ;
+ }
+
+ .main1-right .litop{
+     padding-top: 0;
+     border-top: none;
+ }
+
+ .fa {
+     color: #8a8a8a;
+     font-weight: 300;
+     margin-right: 12px;
+ }
+
+ .main1-right .icon{
+    font-size: 20px;
+ }
+
+ .main1-right li a{
+     color: #525252;
+      }
+
+.main1-right li a:hover{
+    text-decoration: underline;
+}
+
+.main2 {
+    background-color:#f3f2ed ;
+    padding: 80px 0;
+}
+
+.main2-w{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.md-img{
+    background: url(./images/pics02.jpg) no-repeat;
+    background-size: cover;
+    height: 202.55px;
+    margin-bottom: 32px;
+}
+
+.main2-right{
+    display: inline-block;
+    margin-left: 50px;
+    text-align: left;
+    width: 262.5px;
+}
+
+.main2-right .card{
+    padding: 0px;
+}
+
+.main2-right .main{
+    margin: 0px;
+    line-height: 25.6px;
+    padding: 16px 0;
+}
+
+.main2-right .one{
+    padding-top: 0;
+}
+
+.main2-right .top{
+    border-top: 1px solid #e7e5da ;
+}
+
+.footer{
+    background-color:#f3f2ed ;
+}
+
+.footer-main{
+    border-top:1px solid #e7e5da  ;
+    width: 1200px;
+    margin:  0 auto;
+    padding: 48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-main a{
+    color: #d1551f;
+
+}
