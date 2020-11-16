@@ -80,6 +80,8 @@ header{
     width: 1200px;
     margin: 0 auto;
     padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -87,14 +89,88 @@ header{
     margin: 0 auto;
     width: 320px;
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 40px 80px;
     box-sizing: content-box;
+    text-align: center;
+
 }
 
 .main-title{
     font-size: 25.6px;
     font-weight: 700;
-    margin:0;
+    margin:25.6px 0 48px;
     padding: 0;
     color: #404040;
+}
+
+.main-content{
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-bottom: 16px;
+    color: #00000099;
+}
+
+.main .button{
+    background-color: #2d1e25;
+    margin-top: 32px  ;
+    padding: 12.8px 32px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 28.8px;
+}
+
+.img-box{
+    text-align: center;
+    width: 282px;
+    margin-right: 24px;
+}
+
+.img{
+    background:url(./example/images/scr01.jpg)no-repeat;
+    width: 284px;
+    height: 182px;
+    margin-bottom: 48px;
+}
+
+.img-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #00000099;
+}
+
+.end{
+    margin: 0;
+}
+
+footer{
+    border-top: 20px solid rgba(225, 225, 225, 0.08);
+    padding: 80px 0;
+    background-color: #3e4947;
+    text-align: center;
+}
+
+
+.footer-main{
+    font-size: 14.4px;
+    letter-spacing: 1px;
+    line-height: 25.92px;
+    color: #ffffff99;
+}
+
+.footer-main a{
+    color: #ffffffcc;
+}
+
+
+footer .icon{
+    margin: 46.4px 2px 0;
+    font-size: 20px;
+    padding: 0 1.6px;
+    width: 40px;
+    height: 40px;
+    background-color: #3a4442;
+    line-height: 40px;
+    color: #ffffff99;
 }
