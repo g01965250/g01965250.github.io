@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial';
+}
+
+* a{
+    text-decoration: none;
+}
+
+.left{
+    border-left: 1px solid rgba(0, 0,0, 0.2);
+}
+
+header{
+    padding: 32px 0;
+    width: 1200px;
+    margin: 0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.logo a{
+    color: #f67c87;
+}
+
+.menu{
+    display: inline-block;
+    padding: 16px 32px  ;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    font-size: 14.4px;
+    font-weight: 600;
+    padding: 18.72px 21.6px;
+}
+
+.button a{
+    color: #e85d4b;
+}
+
+.first {
+    background-color: #f67c78;
+} 
+
+.first a{
+    color: #FFF;
+}
+
+.img{
+    margin: 48px 0;
+    background: url(./example/images/banner.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 1200px;
+}
