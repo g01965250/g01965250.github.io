@@ -231,3 +231,25 @@ header{
 .green{
     background-color: #a8c269;
 }
+
+.welcome .main-width{
+    display: block;
+}
+
+.welcome-title{
+    font-size: 44.8px;
+    font-weight: 700;
+}
+
+.welcome .content{
+    margin-bottom: 16px;
+}
+
+.welcome a{
+    color: #e85d4b;
+    text-decoration: underline;
+}
+
+.welcome a:hover{
+    text-decoration: none;
+}
