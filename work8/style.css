@@ -65,3 +65,117 @@ header{
     height: 400px;
     width: 1200px;
 }
+
+.main{
+    background-color: #f3f3f3;
+    
+}
+
+.main-width{
+    width: 1200px;
+    padding: 80px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-main{
+    width: 700px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.container{
+    width: 700px;
+}
+
+.title{
+    font-size: 25.6px;
+    font-weight: 700;
+    color: #404040;
+    margin-bottom: 48px;
+}
+
+.content{
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #00000099;
+    margin-bottom: 64px;
+}
+
+.box{
+    display: inline-block;
+    width: 320px;
+    margin-right: -3px;
+}
+
+.link{
+    padding-top: 9.6px;
+    }
+
+.link a{
+    color: #888787;
+}
+
+.boxes .left{
+    padding-left: 78px;
+}
+
+.box .button{
+    margin-top: 32px;
+    padding: 12.8px 32px;
+    letter-spacing: 1px;
+    line-height: 28.8px;
+    background-color: #e85d4b;
+    font-size: 16px;
+
+}
+
+.box .button a{
+    color: #fff;
+    font-weight: normal;
+}
+
+.right-main{
+    width: 350px;
+    padding-left: 49px;
+}
+
+.box .first{
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.right-main .first{
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.right-smtitle{
+    margin-top: 48px;
+    font-size: 18.72px;
+    font-weight: 300;
+    margin-bottom: 9.36px;
+}
+
+.right-content{
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #00000099;
+    width: 350px;
+    margin-bottom: 16px;
+}
+
+.right-main .button{
+    margin-top: 32px;
+    padding: 12.8px 32px;
+    letter-spacing: 1px;
+    line-height: 28.8px;
+    background-color: #e85d4b;
+    font-size: 16px;
+
+}
+
+.right-main .button a{
+    color: #fff;
+    font-weight: normal;
+}
