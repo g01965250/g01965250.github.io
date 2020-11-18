@@ -179,3 +179,55 @@ header{
     color: #fff;
     font-weight: normal;
 }
+
+.banner-box {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.banner-box .title{
+    margin:25.6px 0;
+    color: #FFF;
+}
+
+.banner-box .content{
+    margin-bottom: 16px;
+    color: #FFF;
+}
+
+.banner-box .button{
+    margin-top: 32px;
+    padding: 12.8px 32px;
+    letter-spacing:1px;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: normal;
+}
+
+.red .button{
+    background-color: #e85d4b;
+}
+
+.blue .button{
+    background-color: #57aead;
+}
+
+.green .button{
+    background-color: #809944;
+}
+
+.banner-box a{
+    color: #FFF;
+}
+
+.red{
+    background-color: #f67c78;
+}
+
+.blue{
+    background-color: #79cac4;
+}
+
+.green{
+    background-color: #a8c269;
+}
