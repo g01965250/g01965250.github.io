@@ -253,3 +253,33 @@ header{
 .welcome a:hover{
     text-decoration: none;
 }
+
+.footer{
+    padding: 80px 0;
+    background-color: #e4c65d;
+    text-align: center;
+}
+
+
+.footer-main{
+    font-size: 14.4px;
+    letter-spacing: 1px;
+    line-height: 25.92px;
+    color: #ffffff99;
+}
+
+.footer-main a{
+    color: #ffffffcc;
+}
+
+
+.footer .icon{
+    margin: 46.4px 2px 0;
+    font-size: 20px;
+    padding: 0 1.6px;
+    width: 40px;
+    height: 40px;
+    background-color: #e2ad1c;
+    line-height: 40px;
+    color: #fff;
+}
