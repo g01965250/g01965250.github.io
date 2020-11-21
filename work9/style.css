@@ -94,11 +94,14 @@ body{
 }
 
 .wrapper{
-    display: flex;
-    justify-content: space-between;
     padding: 80px 0;
     margin: 0 auto;
     width: 1200px;
+}
+
+.main .wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
 .main_left{
@@ -189,6 +192,7 @@ body{
     line-height: 48px;
     margin-top: 32px;
     padding: 0 16px;
+    color: #fff;
 }
 
 .box_title a{
@@ -203,6 +207,76 @@ body{
     text-decoration: underline;
 }
 
-.main_button {
+.main2{
+    background: rgb(245, 245, 245) url(./example/images/overlay.png)repeat;
+    margin: 0 20px;
+    border-top: 1px solid rgba(0,0,0,.05);
+}
+
+.main_title-xl{
+    font-size: 44.8px;
+    font-weight: 300;
+    margin-bottom: 48px;
+    color: #000000cc;
+}
+
+.main2_describ{
+    display: block;
+    font-size: 17.6px;
+    font-weight: 400;
+    letter-spacing: 2.64px;
+    padding: 8.8px 0 35.2px;
+    color: #000000b3;
+}
+
+.box-container{
+    display: flex;    
+    justify-content: space-between;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #A00044;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    line-height: 48px;
+    margin-top: 32px;
+    padding: 0 16px;
     color: #fff;
+}
+
+.box .box_title{
+    padding-bottom: 19.2PX;
+    font-size: 19.2px;
+    font-weight: 400;
+    color: #000000b3;
+}
+
+.box{
+    margin-right: 24px;
+    width: 282px;
+}
+
+.box .box_content{
+    color: #00000080;
+}
+
+.copy{
+    color: #ffffff33;
+    padding: 50px 46px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+.copy a{
+    color: #ffffff4d;
+    text-decoration: underline;
+}
+
+.copy a:hover{
+    text-decoration: none;
 }
