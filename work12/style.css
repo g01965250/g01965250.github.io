@@ -91,5 +91,28 @@
     background-color: #c99;
     font-size: 17.6px;
     padding: 15px 40px;
+}
 
+.banner{
+    width: 1210px;
+    height: 327px;
+    padding: 70px;
+    background-color: #99c;
+}
+
+.icon{
+    width: 356.656px;
+    color: #fff;
+    margin: 0 53.328px;
+    text-align: center;
+}
+
+.fas{
+    font-size: 72px;
+}
+
+.icon-describ{
+    font-size: 18px;
+    margin: 20px 0 35px;
+    line-height: 30.6px;
 }
