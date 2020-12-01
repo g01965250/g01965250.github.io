@@ -170,3 +170,31 @@
     height: 699.98px;
     width: 699.98px;
 }
+
+.blue-banner{
+    display: block;
+    text-align: right;
+    background: #99ccff;
+    padding: 40px 40px 30px;
+}
+
+.blue-banner-title{ 
+    font-size: 24px;
+    color: #333;
+    margin:  0 0 20px;
+}
+
+.blue-banner-menu{
+    text-align: center;
+}
+
+.banner-menu-item{
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px;
+    color: #333;
+}
+
+.menu-iten-avctive{
+    color: #FFF;
+}
