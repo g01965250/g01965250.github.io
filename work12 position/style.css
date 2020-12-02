@@ -9,6 +9,11 @@
     position: absolute;
 }
 
+.change{    
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
 .container{
     padding: 0 15px;
 }
@@ -67,6 +72,11 @@
     color: #fff;
 }
 
+.header-menu-item:hover{
+    background: #c99;
+    color: #fff;
+}
+
 .header-item-num{
     margin-bottom: 20px;
 }
@@ -106,6 +116,11 @@
     padding: 15px 40px;
     font-size: 17.6px;
     color: #fff;
+
+}
+
+.main-side-bnt:hover{
+    background: #875959;
 }
 
 .banner{
@@ -159,6 +174,11 @@
 
 .italic .main-side-bnt{
     background: #666768;
+    font-style: normal;
+}
+
+.italic .main-side-bnt:hover{
+    background: #989a9b;
 }
 
 .main-side-img{
@@ -192,6 +212,14 @@
     margin: 5px;
     font-size: 18px;
     color: #333;
+}
+
+.bluebar-active{
+    color: #fff;
+}
+
+.bluebar-menu-item:hover{
+    color: #fff;
 }
 
 .img{
@@ -246,6 +274,37 @@
     margin-right: 0;
 }
 
+.qq{
+    font-size: 15.4125px;
+    color: #fff;
+    display: none;
+    background: #9e5406 ;
+    opacity: 0.7;
+    line-height: 26.2013px;
+    letter-spacing: 1px;
+    width: 225px;
+    height: 225px;
+    text-align: center;
+}
+
+.aa{
+    margin: 16px;
+    border: solid 1px #fff;
+    padding: 38.5938px 10px 10px;
+    height: 193px;
+}
+
+.xl{
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.img:hover .qq{
+    display: block;
+    position: absolute;
+}
+
 .blue{
     padding: 20px;
     background: #9cf;
@@ -282,7 +341,7 @@
 .style{
     color: #495057;
     background-color: transparent;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 16px;
     width: 100%;
     border: none;
@@ -296,6 +355,10 @@
     font-size: 17.6px;
     padding: 15px 40px;
     font-family: 'arial';
+}
+
+.form-bnt:hover{
+    background: #547d54;
 }
 
 .about{
@@ -314,11 +377,41 @@
     color: #666;
 }
 
+.about-tel{
+    font-size: 18px;
+    line-height: 30.6px;
+    color: #666;
+}
+.red:hover{
+    color: #c99;
+}
+
 .greenbar{
     background: #9c9;
     padding: 20px;
+    margin-bottom: 60px;
+}
+
+.foot-icon{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .fab{
-    background: #333;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: #DDD;
+    color: #666;
+    margin: 8px;
 }
+
+.copy{
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+    line-height: 30.6px;
+}
+
