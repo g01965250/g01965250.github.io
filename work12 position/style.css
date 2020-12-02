@@ -117,7 +117,7 @@
     display: inline-block;
     color:#FFF;
     width: 250px;
-    margin: 0 50px ;
+    margin: 0 51px ;
 }
 
 .fas{
@@ -129,4 +129,43 @@
     line-height: 30.6px;
     font-size: 18px;
     margin:0 0 35px;
+}
+
+.main-box{
+    width: 490.047px;
+    padding: 40px 50px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+} 
+
+.main-box .main-side-main{
+    color: #666;
+    margin: 35px 0 0;
+}
+
+.italic{
+    padding: 30px 60px 45px ;
+    font-style: italic;
+    text-align: center;
+    background: #ddd;
+}
+
+.italic .main-side-main{
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+.italic .main-side-bnt{
+    background: #666768;
+}
+
+.main-side-img{
+    background: url(./example/img/comparto-image-02.jpg);
+    width: 699.98px;
+    height: 699.98px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
