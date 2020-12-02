@@ -107,3 +107,26 @@
     font-size: 17.6px;
     color: #fff;
 }
+
+.banner{
+    text-align: center;
+    background: #99c;
+    padding: 70px;
+}
+.icon{
+    display: inline-block;
+    color:#FFF;
+    width: 250px;
+    margin: 0 50px ;
+}
+
+.fas{
+    font-size: 72px;
+    margin: 0 0 20px;
+}
+
+.icon-describ{
+    line-height: 30.6px;
+    font-size: 18px;
+    margin:0 0 35px;
+}
