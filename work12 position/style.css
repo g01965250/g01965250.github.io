@@ -169,3 +169,27 @@
     right: 0;
     top: 0;
 }
+
+.bluebar{
+    padding: 40px 40px 30px;
+    background: #9cf;
+    text-align: right;
+}
+
+.bluebar-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px;
+}
+
+.bluebar-menu{
+    text-align: center;
+}
+
+.bluebar-menu-item{
+    display: inline-block;
+    margin: 5px;
+    font-size: 18px;
+    color: #333;
+}
