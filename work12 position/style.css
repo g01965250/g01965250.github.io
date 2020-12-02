@@ -201,10 +201,6 @@
     margin: 0 8px;
 }
 
-.imgbar{
-
-}
-
 .img1{
     background: url(./example/img/gallery/gallery-item-01.jpg) center;
     background-size: cover;
@@ -254,4 +250,75 @@
     padding: 20px;
     background: #9cf;
     margin-bottom: 60px;
+}
+
+.map-title{
+    padding: 55px 0 60px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background: #9c9;
+}
+
+.map{
+    width: 414px;
+    height: 400px;
+    display: inline-block;
+}
+
+.form{
+    display: inline-block;
+    position: absolute;
+    padding: 35px 65px;
+    text-align: end;
+    background: #f2f2f2;
+    width: 427.668px;
+    margin-left: 20px;
+}
+.formstyle{
+    margin-bottom: 25px;
+}
+.style{
+    color: #495057;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #999A9B;
+}
+
+.form-bnt{
+    background: #9c9;
+    color: #fff;
+    display:inline-block;
+    font-size: 17.6px;
+    padding: 15px 40px;
+    font-family: 'arial';
+}
+
+.about{
+    position: absolute;
+    display: inline-block;
+    width: 328.8px;
+    padding: 45px 40px;
+    background: #f2f2f2;
+    right: 0;
+}
+
+.about-main{
+    font-size: 18px;
+    line-height: 30.6px;
+    margin-bottom: 35px;
+    color: #666;
+}
+
+.greenbar{
+    background: #9c9;
+    padding: 20px;
+}
+
+.fab{
+    background: #333;
 }
