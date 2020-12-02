@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.absolute{
+    position: absolute;
+}
+
 .container{
     padding: 0 15px;
 }
@@ -55,7 +59,7 @@
     font-size: 19.2px;
     color: #666;
     padding: 35.5px 0 0 36.25px;
-    margin-left: 17px;    
+    margin-left: 16px;    
 }
 
 .header-menu-item-active{
@@ -65,4 +69,41 @@
 
 .header-item-num{
     margin-bottom: 20px;
+}
+
+.main-img{
+    display: inline-block;
+    background: url(./example/img/comparto-image-01.jpg);
+    width: 699.98px;
+    height:699.98px;
+}
+
+.main-side{
+    display: inline-block;
+    width: 490.047px;
+    padding: 50px 40px;
+    height: 700px;
+    background: #edeeef;
+    right: 0;
+}
+.main-side-title{
+    font-size: 24px;
+    font-weight:700;
+    color: #333;
+    margin: 0 0 40px;
+}
+
+.main-side-main{
+    font-size: 18px;
+    line-height: 30.6px;
+    margin-bottom: 35px;
+    color: #666;
+}
+
+.main-side-bnt{
+    display: inline-block;
+    background: #c99;
+    padding: 15px 40px;
+    font-size: 17.6px;
+    color: #fff;
 }
