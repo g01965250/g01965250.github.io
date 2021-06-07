@@ -8,17 +8,51 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-
   <body>
     <header>
         <div class="logo"><a href="#">SYNCHRONOUS</a></div>
         <div class="title">DESIGN BY TEMPLATED</div>
-        <ul>
-          <li class="black">HOMEPAGE</li>
-          <li><a href="#">THREE COLUMN</a></li>
-          <li><a href="#">LEFT SIDEBAR</a></li>
-          <li><a href="#">RIGHT SIDEBAR</a></li>
-          <li><a href="#">NO SIDEBAR</a></li>
+        <ul id="header-menu">
+          <li class="active">
+            HOMEPAGE
+            <div class="header-menu-item">
+              <div>123</div>
+              <div>456</div>
+              <div>789</div>
+            </div>
+          </li>
+          <li>
+            THREE COLUMN
+            <div class="header-menu-item">
+              <div>123</div>
+              <div>456</div>
+              <div>789</div>
+            </div>
+          </li>
+          <li>
+            LEFT SIDEBAR
+            <div class="header-menu-item">
+              <div>123</div>
+              <div>456</div>
+              <div>789</div>
+            </div>
+          </li>
+          <li>
+            RIGHT SIDEBAR
+            <div class="header-menu-item">
+              <div>123</div>
+              <div>456</div>
+              <div>789</div>
+            </div>
+          </li>
+          <li>
+            NO SIDEBAR
+            <div class="header-menu-item">
+              <div>123</div>
+              <div>456</div>
+              <div>789</div>
+            </div>
+          </li>
         </ul>
     </header>
 
@@ -105,7 +139,27 @@
     <div class="footer">
       <div class="footer-main">Design: <a href="#">TEMPLATED</a> Images: <a href="#">Unsplash</a> (<a href="#">CC0</a>)</div>
     </div>
+    <script>
+      const munuDiv = document.getElementById("header-menu")
+      const handleMenuClick = (e) => {
+        console.dir(e.target)
+        if (e.target.id !== 'header-menu'){                   
+          if (e.target.classList.contains('active')) {
+            e.target.classList.remove('active')
+          } else {
+            const items = document.querySelectorAll('#header-menu li')
+            console.log(items)
+            for (let i = 0; i < items.length; i++) {
+              items[i].classList.remove('active')
+            }
 
+            e.target.classList.add('active')
+          }
+        }
+       }
+       munuDiv.addEventListener('click', handleMenuClick)
+       butDiv.addEventListener('click', handleNum)
+   </script>
   </body>
     
 
